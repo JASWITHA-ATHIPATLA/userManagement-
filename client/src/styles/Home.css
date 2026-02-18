@@ -1,0 +1,35 @@
+.display-form{
+width:100vw;
+height:100vh;
+background-color: rgb(8, 50, 174);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.innercontent{
+ background-color: white;
+ border-radius: 7px;
+ margin: 10px;
+}
+.add-btn{
+ width: 5vw;
+ height: 4vh;
+ background-color: rgb(8, 50, 174);
+ margin: 4px;
+ color: white;
+}
+.table{
+ background-color: rgb(251, 251, 250);
+ width:60vw;
+ border-radius: 3%;
+ margin: 10px;
+
+}
+.table th{
+ text-align: start;
+ height: 5vh;
+ margin: 10px;
+ gap: 5px;
+ border-bottom: 3px solid rgb(51, 51, 50);
+}
