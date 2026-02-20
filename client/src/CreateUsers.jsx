@@ -14,7 +14,7 @@ function CreateUsers() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/createUsers", {name,email,age}).then((response)=>{
+      const res = await axios.post("http://localhost:3000/createUsers", {name,email,age}).then(()=>{
         //  console.log(response.data);
          navigate("/");
       });
