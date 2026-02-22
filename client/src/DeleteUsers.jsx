@@ -5,5 +5,4 @@ function DeleteUsers(){
     <div>DeleteUsers</div>
   )
 }
-
 export default DeleteUsers
