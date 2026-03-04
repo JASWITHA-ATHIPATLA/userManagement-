@@ -57,6 +57,7 @@ app.delete('/deleteUser/:id', async (req, res) => {
 });
 
 
+
 app.post('/createUsers',async(req,res)=>{
    users.create(req.body)
    .then(user=>res.json(user))
